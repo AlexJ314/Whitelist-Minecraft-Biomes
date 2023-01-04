@@ -1,11 +1,11 @@
 """ Takes a .json object of biome parameters and filters it
-  to only desired biomes """
+  to exclude desired biomes """
 
 # Get the full biome and parameter list
 from file import all_biomes as RAW
 
-# Get the desired biomes list
-from file import allow_biomes as ALLOW
+# Get the undesired biomes list
+from file import allow_biomes as NO_ALLOW
 
 def main():
   ''' The main functionality '''
@@ -14,7 +14,7 @@ def main():
   dirty_biomes = parse(RAW)
 
   # Filter that list
-  clean_biomes = narrow(dirty_biomes, ALLOW)
+  clean_biomes = narrow(dirty_biomes, NO_ALLOW)
 
   # Assemble the filtered biomes back into a .json object
   out = assemble(clean_biomes)
@@ -71,10 +71,13 @@ def parse(string):
   return out
 
 def narrow(lst, filt):
-  ''' Filter the list by a list of allowed elements '''
+  ''' Filter the list by a list of disallowed elements '''
 
   # What to return
   out = []
+
+  # Is this an allowed biome?
+  good = True
 
   # For each element in the list to be filtered...
   for l in lst:
@@ -82,14 +85,23 @@ def narrow(lst, filt):
     # For each element in the filter...
     for f in filt:
 
-      # If the list element contains an allowed biome...
+      # If the list element contains any disallowed biome...
       if (f in l):
 
-        # Record it!
-        out.append(l)
+        # Don't allow this biome
+        good = False
 
         # Save time
         break;
+
+    # Was this biome not blacklisted?
+    if (good and (len(l) != 1)):
+
+      # Record it!
+      out.append(l)
+
+    # Reset good for the next element
+    good = True
 
   # Return the filtered list
   return out

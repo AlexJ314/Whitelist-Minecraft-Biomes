@@ -54,7 +54,7 @@
 
   
   Once set, simply run whitelist_biomes.py.
-    This will generate the "out.json" file.
+    This will generate the `out.json` file.
   
 
   
@@ -293,6 +293,10 @@
     be used instead of our modified default.
   
 
+## Final thoughts:
+
+  I've also included `blacklist_biomes.py` to instead exclude listed biomes.
+    The use is still the same as `whitelist_biomes.py`.
   
   Be sure to check out https://minecraft.fandom.com/wiki/Minecraft_Wiki
     if you have additional questions. Happy modding!
