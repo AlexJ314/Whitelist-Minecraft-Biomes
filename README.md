@@ -74,8 +74,9 @@
 ## Using this as a datapack:
 
   
-  The above assumes you already have a solid grasp of datapacks.  
-    Here we'll go into more detail. A more general tutorial can be found at
+  The above assumes you already have a solid grasp of datapacks.
+
+  Here we'll go into more detail. A more general tutorial can be found at
     https://minecraft.fandom.com/wiki/Tutorials/Creating_a_data_pack
   
 
@@ -243,7 +244,7 @@
   ```
 
   
-  **Of note: If you wish to create multiple dimensions, than can be done here, too.  
+  **Of note: If you wish to create multiple dimensions, that can be done here, too.  
     Simply copy / paste new dimensions or write your own, making sure
     their names are unique. The `settings` tag references a .json file within
     `noise_settings`. You may modify, rewrite, or create your own settings file.**
