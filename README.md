@@ -46,7 +46,8 @@
     
   More vanilla world generation can be found at
     https://github.com/slicedlime/examples
-    
+    and
+    https://drive.google.com/drive/folders/1F8F8gFyy6oy4WVcMiDNd_8cFTnNjromP
 
     
   The default file includes the 1.19 biome generation parameters
