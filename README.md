@@ -82,9 +82,8 @@
   
 
   
-  Download https://github.com/slicedlime/examples/raw/master/vanilla_worldgen.zip
-    to obtain the default world generation settings. Previous Minecraft
-    versions are available under `commits`.
+  Download https://github.com/slicedlime/examples/blob/5d5e803876418f53c436ff62cc7e6dd602506cac/vanilla_worldgen.zip?raw=true to obtain the default world generation settings. The following link has broken: https://github.com/slicedlime/examples/raw/master/vanilla_worldgen.zip
+Previous Minecraft versions are available under `commits`.
   
 
   
