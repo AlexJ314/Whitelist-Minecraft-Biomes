@@ -32,6 +32,15 @@ for biomedef in all_biomes:
         out.append(biomedef)
     elif not is_present and not KEEP_LIST:
         out.append(biomedef)
+    
+    if is_present:
+        userbiomes.remove(current_name)
 
 with open("out.json", 'w') as trg:
     json.dump(out, trg, indent=4, sort_keys=True)
+
+if userbiomes:
+    print('Warning! The following biomes in your list were not found in "biomelist.json":')
+    for name in userbiomes:
+        print('\t'+name)
+    print('Please check for typos and make sure you added all modded biomes to "biomelist.json"')
