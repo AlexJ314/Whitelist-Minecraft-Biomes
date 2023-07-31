@@ -594,6 +594,33 @@
         }
     },
     {
+        "biome": "minecraft:plains",
+        "parameters": {
+            "continentalness": [
+                -0.11,
+                0.3
+            ],
+            "depth": 0.0,
+            "erosion": [
+                -0.7799,
+                -0.375
+            ],
+            "humidity": [
+                -1.0,
+                -0.35
+            ],
+            "offset": 0.0,
+            "temperature": [
+                -0.45,
+                -0.15
+            ],
+            "weirdness": [
+                -1.0,
+                -0.9333
+            ]
+        }
+    },
+    {
         "biome": "minecraft:meadow",
         "parameters": {
             "continentalness": [
@@ -635,6 +662,33 @@
             "humidity": [
                 -1.0,
                 -0.35
+            ],
+            "offset": 0.0,
+            "temperature": [
+                -0.45,
+                -0.15
+            ],
+            "weirdness": [
+                -1.0,
+                -0.9333
+            ]
+        }
+    },
+    {
+        "biome": "minecraft:forest",
+        "parameters": {
+            "continentalness": [
+                -0.11,
+                0.3
+            ],
+            "depth": 0.0,
+            "erosion": [
+                -0.7799,
+                -0.375
+            ],
+            "humidity": [
+                -0.1,
+                0.1
             ],
             "offset": 0.0,
             "temperature": [
@@ -991,6 +1045,33 @@
             "temperature": [
                 -1.0,
                 -0.45
+            ],
+            "weirdness": [
+                -0.05,
+                0.05
+            ]
+        }
+    },
+    {
+        "biome": "minecraft:river",
+        "parameters": {
+            "continentalness": [
+                -0.19,
+                -0.11
+            ],
+            "depth": 0.0,
+            "erosion": [
+                -1.0,
+                -0.375
+            ],
+            "humidity": [
+                -1.0,
+                1.0
+            ],
+            "offset": 0.0,
+            "temperature": [
+                -0.45,
+                1.0
             ],
             "weirdness": [
                 -0.05,
