@@ -297,6 +297,9 @@
 
   I've also included `blacklist_biomes.py` to instead exclude listed biomes.
     The use is still the same as `whitelist_biomes.py`.
+
+  The script is by no means efficient or elegant, but this was the work of
+    an afternoon and I realized the community might want it.
   
   Be sure to check out https://minecraft.fandom.com/wiki/Minecraft_Wiki
     if you have additional questions. Happy modding!
