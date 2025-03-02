@@ -6,6 +6,10 @@
 
 *Or, How to make a Minecraft world of only biomes I want*
 
+## This project has been updated!
+
+  https://github.com/AlexJ314/Filtered-Minecraft-Biomes
+
 
 ## What this is:
 
